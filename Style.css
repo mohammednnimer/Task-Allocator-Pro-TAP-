@@ -1,0 +1,245 @@
+body{
+background-color: rgb(187, 192, 209);
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+
+
+}
+
+body article{
+    margin: 30px 0px 0px 350px;
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+background-color: rgb(127, 128, 153);
+width: 800px;
+height: 500px;
+}
+
+input{
+    border-radius: 40px;
+    margin: 0px 15px 1.2px 0px;
+
+}
+
+#signup{
+    text-decoration: none;
+    margin-left: 20px; 
+    font-size: 25px;
+}
+
+a:link{
+color: rgb(5, 5, 5);
+}
+a:visited{
+    color: rgb(79, 77, 87);
+    }
+    a:hover{
+        color: rgb(214, 210, 246);
+        }
+        a:focus{
+            color: rgb(224, 224, 255);
+            }
+p{
+  font-size: 25px;
+ }
+ a{
+    font-size: 25px;
+   }
+  footer{
+
+    margin-left: 0px;
+    margin-top: 160px;
+  }
+
+ article h2{
+    /* background-attachment: scroll; */
+margin: 20px 0px 0px 90px;
+}
+nav{
+    margin-top:10px ;
+    margin-left: 1000px;
+    float: right;
+}
+li{
+    font-size: 20px;
+}
+
+header {
+    padding-top: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100px; 
+     background-color: rgb(161, 167, 192);
+}
+
+
+/* margin-left: 0px;
+margin-top: 30px;
+background-color: rgb(118, 122, 135);
+width: 250px;
+height: 500px;
+border: 2px solid black; */
+
+
+
+button{
+    border-radius: 40px;
+    margin: 15px 75px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+
+}
+small{
+
+    color: #6c0202;
+}
+
+button:hover {
+    background-color: #798989;
+}
+#Confirmationusername{
+
+    width: 250px;
+}
+.acc2
+{
+    height: 30px;
+}
+table{
+    border: solid  1px black;
+    border-collapse: collapse;
+    margin-left: 200px;
+    width: 500px;
+}
+th{
+    
+    background-color:rgb(113, 129, 129); 
+    border: solid  3px black;
+    border-collapse: collapse;
+}
+
+td{
+    border: solid black 3px;
+width: 200px;   
+
+}
+
+#displyinfosingup{
+
+    width: 600px;
+    margin-top: 50px;
+    padding-top: 0px;
+    margin-left: 300px;
+}
+tbody tr:nth-child(odd) {
+
+    background-color: rgb(116, 119, 129); 
+
+    
+}
+
+#Confirm{
+    background-color:rgb(117, 124, 124) ;
+    width: 250px;
+margin-left: 320px;
+margin-top: 20px;
+}
+#truecaper{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 450px;
+    height: 150px;
+    background-color: rgb(200, 242, 200);
+    }
+#trueimg{
+    width: 150px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 140px;
+    
+}
+#msg{
+    margin-left: 500px;
+    margin-top: 70px;
+    background-color: #96acad;
+    width: 450px;
+    height: 400px;
+}
+#Successful{
+    color: #22591c;
+    margin-left: 90px;
+}
+#iduser{
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.reg {
+padding: 20px;
+width: 380px;
+ height: 620px; 
+ background-color: rgb(127, 128, 153);
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.username{
+    display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 20px;
+width: 380px;
+ height: 620px;
+}
+#signupform{
+    background-color: rgb(127, 128, 153);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 20px;
+width: 400px;
+
+}
+footer{
+    margin-bottom: 0px;
+    height: 58px;
+        background-color: rgb(162, 167, 184);
+    }
+.reg1 {
+
+ padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+#img{
+
+    padding: 0px;
+    float: left;
+    height: 500px;
+
+}
+#imgsignup{
+    padding: 0px;
+    float: left;
+    height: 650px;
+
+
+}
+

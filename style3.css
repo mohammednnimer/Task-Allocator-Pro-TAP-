@@ -1,0 +1,293 @@
+body{
+    background-color: rgb(187, 192, 209);
+    }
+    input{
+        border-radius: 40px;
+        margin: 0px 15px 1.2px 0px;
+    
+    }
+    a:link{
+        color: rgb(14, 14, 15);
+        }
+        a:visited{
+            color: rgb(0, 0, 0);
+            }
+            a:hover{
+                color: rgb(31, 31, 147);
+                }
+ a:focus{
+ color: rgb(18, 18, 57);
+ }
+
+
+ p{
+   font-size: 25px;
+ }
+ #account{
+    margin-left: 1040px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 80px;
+  
+}
+
+.imageuser{
+width: 50px;
+height: 50px;
+
+}
+#Task_Details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+#tableuser{
+    width: 550px;
+    height: 100px;
+    margin-left: 40px;
+}
+#informationtasks{
+    height: 400px ;
+    width: 450px;
+    margin-top: 39px;
+}
+#contener{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#assign{
+    margin-top: 30px;
+    margin-left: 180px;
+    width: 600px;
+
+
+}
+
+ a{
+     font-size: 20px;
+ }
+ button{
+    border-radius: 40px;
+    margin-top: 20px ;
+    margin-left: 180px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+
+}
+input[type="submit"]
+{
+
+    border-radius: 40px;
+    margin-top: 0px ;
+    margin-left: 180px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+input[type="submit"]:hover
+{
+background-color: #3d4259;
+}
+table{
+    border: solid  1px black;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 100px;
+ 
+   background-attachment: scroll;
+   height: auto;
+   width: auto;
+}
+
+table th{
+    cursor: pointer;
+    background-color:rgb(112, 120, 120); 
+    border: solid  3px black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+
+    
+    border: solid black 3px;
+width: 150px;   
+text-align: center;
+
+}
+legend{
+    margin-left: 10px;
+    margin-top: 100px;
+    font-size: 24px;
+}
+
+tbody tr:nth-child(odd) {
+
+    background-color: #6c7382;
+  
+}
+#Manager{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+width: 200px;
+background-color: rgb(138, 147, 157);
+height: 500px;
+padding-left: 0px;
+margin-top: 27px;
+margin-right: 100px;
+
+}
+#Manage{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+width: 200px;
+background-color: rgb(138, 147, 157);
+height: 500px;
+padding-left: 0px;
+margin-top: 27px;
+margin-right: 60px;
+
+}
+
+#taskid{
+margin-left: 22px;
+background-color: #6d7179;
+}
+#taskname{
+
+    background-color: #666a72; 
+}
+#taskdate{
+    margin-left: 9px;
+    }
+#role{
+
+    margin-left: 58px;
+
+}
+#succ{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: rgb(192, 224, 195);
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+#true{
+    margin-top: 30px;
+    margin-left: 140px;
+    width: 150px;
+     height:150px;
+    padding: 0px;
+
+
+}
+#buttom{
+width: 250px;
+margin-left: 100px;
+background-color: #b2f5ac;
+}
+
+p{
+    text-align: center;
+}
+#truecaper{
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+width: 450px;
+height: 200px;
+background-color: rgb(142, 245, 128);
+}
+
+
+
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 1px solid #535353; 
+    background-color: #8a93a4;
+    border-collapse:collapse;
+     /* 1px solid #ddd;  */
+    border-radius: 5px;
+    padding: 15px;
+    
+}
+input[type="Date"]
+{
+width: 170px;
+}
+input[type="file"]
+{
+margin-right: 50px;
+}
+fieldset:nth-child(even) {
+    background-color: #6c7382;
+    height: 20px;
+}
+button:hover {
+    background-color: #7f8b8b;
+}
+li{
+    margin-top: 20px;
+}
+ .errors {
+   background-color: rgb(255, 145, 145);
+   border-color: #ff0000;
+
+}
+.li{
+    margin-top: 5px;
+
+}
+
+
+#artAddProject{
+ 
+    margin-top: 0px;
+    margin-left: 140px;     
+    display: flex;
+    flex-direction: column;
+  
+    flex-wrap: nowrap; 
+   align-items: center; 
+    height: 400px;
+ 
+}
+#h11{
+margin-left: 190px;
+}
+small{
+
+    color: #6c0202;
+
+
+}
+
+
+select{
+    width: 120px;
+}
+
+.shift{
+
+    margin-left: 100px;
+}
+
+

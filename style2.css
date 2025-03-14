@@ -1,0 +1,648 @@
+body{
+    background-color: rgb(187, 192, 209);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+   
+   }
+    input{
+        border-radius: 40px;
+        margin: 0px 15px 1.2px 0px;
+    
+    }
+    a:link{
+        color: rgb(14, 14, 15);
+        }
+        a:visited{
+            color: rgb(0, 0, 0);
+            }
+            a:hover{
+                color: rgb(84, 84, 93);
+                }
+ a:focus{
+ color: rgb(122, 122, 184);
+ }
+
+ .imageuser {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #ddd; 
+     border-radius: 15px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+     transition: all 0.3s ease-in-out; 
+}
+#buttom{
+    width: 250px;
+    margin-left: 100px;
+    background-color: #b2f5ac;
+    }
+.imageuser:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    border-color: #040709;}
+
+#imgpersonal{
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+#truecaper{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 450px;
+    height: 150px;
+    background-color: rgb(117, 126, 129);
+    }
+    #succ1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: rgb(192, 224, 195);
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+    #truecaper1{
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        width: 450px;
+        height: 150px;
+        background-color: rgb(142, 245, 128);
+        }
+        
+        #filedoc {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+             align-items: center; 
+               width: 80%;
+        }
+        .success-message{
+            font-size: 15px;
+            color: #09304b;
+            margin-left: 150px;
+        }
+        .success-message2{
+
+            font-size: 15px;
+            color: #002139;
+            margin-left: 110px;
+        }
+
+
+ p{
+   
+   font-size: 25px;
+ }
+ #account{
+
+    margin-right: 0px;
+}
+header {
+    padding-top: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100px; 
+     background-color: rgb(161, 167, 192);
+}
+
+#formmember{
+    width: 535px;
+    display: flex;          
+    flex-direction: column;      
+    justify-content: center;     
+   
+}
+.formmember{
+    flex-direction: column;
+    width: 500px;
+    display: flex;          
+       
+    
+}
+
+#taskdatestart{
+    width:96%;
+}
+
+#addmemeber{
+    margin-left: 160px;
+}
+.constant{
+
+    background-color: #464f58;
+}
+#hehm{
+    text-decoration: none;
+    font-size: 12px;
+    color: #362626;
+    margin-left: 11px;
+   
+  
+}
+.rows :hover {
+    background-color: #38525b; 
+}
+#logoutbutt{
+width: 65px;
+height: 27px;
+background-color: #6b748b;
+
+}
+
+
+#contener{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+#assign{
+    margin-top: 30px;
+    margin-left: 180px;
+    width: 600px;
+
+
+}
+footer{
+margin-bottom: 0px;
+height: 58px;
+    background-color: rgb(162, 167, 184);
+}
+
+ a{
+     font-size: 20px;
+ }
+ button{
+    border-radius: 40px;
+    margin-top: 20px ;
+
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+      
+}
+#tablee td{
+    width: 117px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#tablee th{
+    width: 117px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#tableelisttask {
+    width: 650px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+#informationtasks{
+    width: 400px;
+    margin-top: 50px;
+}
+#Task_Details{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-wrap: nowrap;
+
+}
+
+#tableuser{
+    width: 550px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 66px;
+}
+
+
+.createtask{
+
+width: 550px;
+height: 35px;
+
+
+}
+.shift{
+
+    margin-left: 34px;
+}
+
+#prioritycratetask{
+width: 155px;
+height: 25px;
+border-radius: 10px;
+}
+#submetcreatetask{
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+#addproject{
+    margin-left: 200px;
+}
+/* for assign leader task  */
+#tableprojectleader{
+    margin-left: 100px;
+    width: 760px;
+}
+#small{
+
+color: #070707;
+
+}
+
+
+input[type="submit"]
+{
+
+    border-radius: 40px;
+    
+    margin-top: 0px ;
+    margin-left: 180px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+input[type="submit"]:hover
+{
+background-color: #3d4259;
+}
+table{
+    border: solid  1px black;
+    border-collapse: collapse;
+    margin-top: 50px;
+
+ 
+   background-attachment: scroll;
+   height: auto;
+   width: auto;
+}
+
+th{
+    background-color:rgb(112, 120, 120); 
+    border: solid  3px black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+
+    
+    border: solid black 3px;
+width: 150px;   
+text-align: center;
+
+}
+legend{
+    margin-left: 10px;
+    margin-top: 100px;
+    font-size: 24px;
+}
+.assign{
+
+    font-weight: bold;
+    background-color: #e3f8a5;
+   
+    }
+    #tabletaskconform{
+
+margin-left: 140px;
+width: 700px;
+    }
+#searching3{
+    margin-left: 110px;
+    text-align: center;
+    margin-top: 30px;
+}
+tbody tr:nth-child(odd) {
+    background-color: #6c7382; 
+}
+#ubdatesubmet{
+    margin: 30px 25%;
+}
+#buttuns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: 40px;
+}
+#buttuns2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: 0px;
+
+}
+#ubdate{
+    width: 400px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#updatetable {
+    width: 800px;
+    margin-left: 120px;
+}
+#buttunaccept{
+    background-color: #cefcd6;
+    }
+    #buttunrejected{
+        background-color: #f6c3c3;
+    }
+ 
+    #buttunrejected2 {
+        background-color: #f6c3c3;
+        color: #000;
+        text-decoration: none;
+        border: 1px solid #000;
+        border-radius: 15px;
+        padding: 10px 20px;
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+      
+
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        height: 10px;
+        margin-top: 20px;
+    }  
+    
+ 
+
+#assign1{
+    margin-top: 30px;
+    margin-left: 220px;
+    width: 450px;
+   
+}
+#assign2{
+
+    margin-top: 30px;
+    margin-left: 220px;
+    width: 500px;
+}
+#statuscurnet{
+    width: 97%;
+}
+#Manager{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+width: 200px;
+background-color: rgb(138, 147, 157);
+height: 500px;
+padding-left: 0px;
+margin-top: 27px;
+margin-right: 100px;
+
+}
+
+
+/* fieldset {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+    background-color: #8a93a4;
+  
+     border-radius: 0px;
+    padding: 0px; 
+      margin: 0;
+    } */
+
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 1px solid #535353; 
+    background-color: #8a93a4;
+    border-collapse:collapse;
+     /* 1px solid #ddd;  */
+    border-radius: 5px;
+    padding: 15px;
+    
+}
+input[type="Date"]
+{
+width: 170px;
+}
+input[type="file"]
+{
+margin-right: 50px;
+}
+fieldset:nth-child(even) {
+    background-color: #6c7382;
+}
+button:hover {
+    background-color: #7f8b8b;
+}
+li{
+    margin-top: 20px;
+}
+ .errors {
+   background-color: rgb(255, 145, 145);
+   border-color: #ff0000;
+
+}
+.li{
+    margin-top: 5px;
+
+}
+#succ{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: rgb(91, 103, 105);
+    margin-left: 200px;
+    margin-top: 30px;
+    height: 490px;
+    width: 450px;
+  
+}
+#true{
+    margin-top: 30px;
+    margin-left: 140px;
+    width: 150px;
+     height:100px;
+    padding: 0px;
+}
+.searhingtask{
+    margin-bottom: 7px;
+    width: 175px;
+    border-radius:20px;
+    height: 20px;
+}
+#searching{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 130px;
+ 
+
+}
+#searching2{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+
+#search{
+
+    margin-left: 0px;
+    margin-top: 30px;
+
+}
+
+
+#hr{
+width: 450px;
+background-color: #14161b;
+height: 2px;
+border-top: 1px solid #14161b;
+border-bottom: 1px solid #14161b;
+
+}
+#artAddProject{
+    margin-top: 0px;
+    margin-left: 180px;     
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   align-items: center; 
+    height: 400px;
+}
+#artAddmember{
+ 
+    margin-top: 0px;
+    margin-left: 230px;     
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   align-items: center; 
+    height: 400px;
+ 
+}
+
+
+
+#h11{
+
+    margin-left: 200px;
+
+}
+
+#number{
+    border-radius: 10px;
+    width:  97%;
+}
+
+small{
+    color: #6c0202;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.error-message {
+    color: #ff0000; 
+     font-size: 14px;
+    display: none; 
+     margin-left: 10px;
+}
+
+tr td.Pending {
+    font-style: italic;
+    background-color: gray;
+    color: white;
+}
+
+tr td.In_Progress {
+    font-weight: bold;
+    background-color: lightblue;
+    color: black;
+}
+
+tr td.Completed {
+    text-decoration: line-through;
+    border: 2px solid green;
+    padding: 5px;
+    color: black;
+}
+
+tr td.Low {
+    background-color: green;
+    color: white;
+}
+
+tr td.Medium {
+    background-color: yellow;
+    color: black;
+}
+
+tr td.High{
+    background-color: red;
+    color: white;
+}
+#Manager a {
+    text-decoration: none;
+    font-family: "Times New Roman", Georgia, serif;
+     font-size: 22px; 
+ }
+ #listofproject a{
+
+    text-decoration: none; 
+ }
+ #logout{
+    text-decoration: none;
+    margin-left: 20px; 
+    font-size: 20px;
+}
